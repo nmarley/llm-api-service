@@ -1,0 +1,5 @@
+.git
+.dockerignore
+Dockerfile
+.ruff_cache
+.venv

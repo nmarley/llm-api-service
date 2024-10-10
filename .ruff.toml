@@ -1,0 +1,21 @@
+# https://docs.astral.sh/ruff/configuration/
+exclude = [
+    ".git",
+    ".ruff_cache",
+    ".venv",
+    "__pycache__",
+    "venv"
+]
+
+# Same as Black.
+line-length = 88
+indent-width = 4
+
+[lint]
+select = ["F"]
+ignore = [
+    # line too long
+    "E501",
+    # imported but unused
+    "F401"
+]
